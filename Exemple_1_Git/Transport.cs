@@ -1,6 +1,6 @@
 using System;
 public abstract class Transport {
-	private double maxSpeed = 0;
+	private double maxSpeed { get; set; }
 	public double MaxSpeed {
 		get {
 			return maxSpeed;
